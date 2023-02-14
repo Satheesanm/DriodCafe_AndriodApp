@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="50dp"
+    android:paddingTop="10dp"
+    android:background="@color/darkbrown"
+    tools:context=".OrderActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+
+        android:id="@+id/labelHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dip"
+        android:text="Delivery Details"
+        android:textColor="@color/WhiteSmoke"
+        android:textSize="25dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/lName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="@string/hintPersonName"
+        android:textColorHint="@color/gunmetalblack"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:id="@+id/eName" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/lAddress"
+        android:textSize="20dp"
+        android:paddingTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eAddress"
+        android:textColor="@color/white"
+        android:hint="@string/hintenter_address"
+        android:textColorHint="@color/gunmetalblack"
+        android:inputType="textMultiLine"
+        android:textSize="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/lPhone"
+        android:textSize="20dp"
+        android:paddingTop="15dp"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ePhone"
+        android:textColor="@color/white"
+        android:hint="@string/hintenter_phone"
+        android:layout_marginLeft="50dp"
+        android:textColorHint="@color/gunmetalblack"
+        android:inputType="phone"
+        android:textSize="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/simpleSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-0dp"
+        android:layout_marginTop="-35dp"
+
+        android:backgroundTint="@color/white"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/note"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/lNote"
+        android:textSize="20dp"
+        android:paddingTop="15dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eNote"
+        android:textColor="@color/white"
+        android:hint="@string/hintenter_note"
+        android:textColorHint="@color/gunmetalblack"
+        android:inputType="textCapSentences|textMultiLine"
+
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_a_deliver_method_option"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/lDeliver"
+        android:textSize="20dp"
+        android:paddingTop="15dp" />
+
+    <RadioGroup
+        android:id="@+id/tip_options"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/option_SameDay"
+
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+
+        <RadioButton
+            android:id="@+id/option_SameDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="@string/same_day_messenger_service_option" />
+
+        <RadioButton
+            android:id="@+id/option_NextDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="@string/next_day_ground_delivery_option" />
+
+        <RadioButton
+            android:id="@+id/option_pickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            android:text="@string/pickup__option" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/confimredorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/Goldenrod"></Button>
+
+</LinearLayout>
+
+
+
+

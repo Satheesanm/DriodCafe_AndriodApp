@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="50dp"
+    android:paddingTop="10dp"
+    android:background="@color/darkbrown"
+    tools:context=".OrderSummary"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+
+        android:id="@+id/labelHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dip"
+        android:text="Droid cafe Order Summary"
+        android:textColor="@color/WhiteSmoke"
+        android:textSize="32dp" />
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dip"
+        android:paddingRight="20dp"
+        android:text=""
+        android:textColor="@color/Goldenrod"
+        android:textSize="22dp" />
+
+    </LinearLayout>
+
+<!--        <LinearLayout-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+
+<!--                android:id="@+id/value1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="18dip"-->
+<!--                android:text="Text 2"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="22dp" />-->
+
+<!--        </LinearLayout>-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <TextView-->
+
+<!--            android:id="@+id/quantity"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="18dip"-->
+<!--            android:paddingRight="20dp"-->
+<!--            android:text="Quantity : "-->
+<!--            android:textColor="@color/Goldenrod"-->
+<!--            android:textSize="22dp"/>-->
+
+<!--        <LinearLayout-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+
+<!--                android:id="@+id/value2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="18dip"-->
+<!--                android:text="Text 2"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="22dp" />-->
+
+<!--        </LinearLayout>-->
+
+
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <TextView-->
+
+<!--            android:id="@+id/total"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="18dip"-->
+<!--            android:paddingRight="20dp"-->
+<!--            android:text="Total (Including HST) : "-->
+<!--            android:textColor="@color/Goldenrod"-->
+<!--            android:textSize="22dp" />-->
+
+<!--        <LinearLayout-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+
+<!--                android:id="@+id/value3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="18dip"-->
+<!--                android:text="Text 2"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="22dp"  />-->
+
+<!--        </LinearLayout>-->
+
+
+
+<!--    </LinearLayout>-->
+
+    <Button
+        android:id="@+id/deliver"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/Goldenrod"
+        android:text="Delivery Address"
+        android:textColor="@color/white">
+
+    </Button>
+
+
+</TableLayout>
+
+
+
+

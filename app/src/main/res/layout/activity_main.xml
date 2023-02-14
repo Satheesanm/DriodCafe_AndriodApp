@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkbrown"
+    android:orientation="vertical"
+    android:layout_marginLeft="0dp"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    tools:layout_editor_absoluteX="104dp"
+    tools:layout_editor_absoluteY="6dp">
+
+
+    <LinearLayout
+        android:layout_width="468dp"
+        android:layout_height="411dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="5"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="cursive"
+            android:text="Droid Cafe"
+            android:textColor="@color/Goldenrod"
+            android:textColorHighlight="@color/Maroon"
+            android:textSize="60dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/order_eat"
+            android:textColor="@color/PapayaWhip"
+            android:textColorHighlight="@color/Maroon"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/search_background"
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Find your Order"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.833"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="97dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="176dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-50dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bannerdeliver" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="115dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:fontFamily="cursive"
+                    android:text="@string/free_delivery"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="190dp"
+                    android:fontFamily="cursive"
+                    android:text="Feb5 to Apr5"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/categories"
+                android:textColor="@color/Goldenrod"
+                android:textSize="22dp"
+                android:textStyle="bold"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="5"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:clickable="true"
+                    android:text="@string/hot_beverage"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/menu_hot_beverage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="-190dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/hot_beverage" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:clickable="true"
+                    android:text="@string/cold_beverage"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold">
+
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/menu_cold_beverage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="-190dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/cold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="202dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="5"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:text="@string/baked_goods"
+                    android:textSize="17dp"
+                    android:clickable="true"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/menu_bakedgood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="-240dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/baked" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="-20dp"
+                    android:background="@color/white"
+                    android:text="@string/desserts"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:clickable="true"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/menu_dessert"
+                    android:clickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="-190dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dessert" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular"
+                android:textColor="@color/Goldenrod"
+                android:textStyle="bold"
+                android:textSize="22dp"></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="5"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:clickable="true"
+                    android:text="@string/brewed_coffee"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/popular_hot_beverage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="-190dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/brewedcoffee" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="-30dp"
+                    android:background="@color/white"
+                    android:clickable="true"
+                    android:text="@string/ice_coffe"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold">
+
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/popular_cold_beverage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="-150dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/icedcoffee" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="202dp"
+                android:layout_marginLeft="-20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="5"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:text="@string/muffin"
+                    android:textSize="17dp"
+                    android:clickable="true"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/popular_bakedgood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="-240dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/muffins" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    android:text="@string/froyo_"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:clickable="true"
+                    android:textStyle="bold"></TextView>
+
+
+                <ImageView
+                    android:id="@+id/popular_dessert"
+
+                    android:clickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="-190dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dessert" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

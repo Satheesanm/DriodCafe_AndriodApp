@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Droid_Cafe</string>
+    <string name="droid_desert">Droid Desert</string>
+    <string name="hot_beverage">Hot Beverage</string>
+    <string name="title_activity_hot_beverage">HotBeverage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="droid_cafe">Droid Cafe</string>
+    <string name="order_eat"><![CDATA[Order & Eat]]></string>
+    <string name="cold_beverage">Cold Beverage</string>
+    <string name="hot">Hot</string>
+    <string name="cold">Cold</string>
+    <string name="desserts">Desserts</string>
+    <string name="categories">Categories</string>
+    <string name="free_delivery">Free Delivery</string>
+    <string name="baked_goods">Baked Goods</string>
+    <string name="brewed_coffee">Brewed Coffee</string>
+    <string name="expresso">Espresso</string>
+    <string name="brewed_coffer">Brewed Coffee</string>
+    <string name="title_activity_cold_beverage_details">activity_cold_beverage_details</string>
+    <string name="ice_coffe">Ice Coffee</string>
+    <string name="lemonade">lemonade</string>
+    <string name="vanilla_icecafe">Vanilla IceCafe</string>
+
+<string name="donum">Donuts are glazed and sprinkled with candy</string>
+<string name="icecreme">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+<string name="froyo"> FroYo is premium self-serve frozen yogurt.</string>
+<string name="name">Name</string>
+<string name="hintPersonName">Person Name</string>
+<string name="address">Address</string>
+<string name="hintenter_address">Enter address</string>
+<string name="phone">Phone</string>
+<string name="hintenter_phone">Enter Phone</string>
+<string name="note">Note</string>
+<string name="hintenter_note">Enter Note</string>
+<string name="choose_a_deliver_method_option">Choose a Deliver method</string>
+<string name="same_day_messenger_service_option">Same Day Messenger Service</string>
+<string name="next_day_ground_delivery_option">Next Day ground Delivery</string>
+<string name="pickup__option">PickUp</string>
+<string name="more_details"><![CDATA[More details >>>]]></string>
+<string-array name="labels_array">
+    <item>Home</item>
+    <item>Work</item>
+    <item>Mobile</item>
+    <item>Other</item>
+</string-array>
+<!-- TODO: Remove or change this placeholder text -->
+<string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="green_tea">Green Tea</string>
+    <string name="muffin">Muffin</string>
+    <string name="crossant">Croissant</string>
+    <string name="croissant">Croissant</string>
+    <string name="donut">Donut</string>
+    <string name="ice_cream">Ice Cream</string>
+    <string name="froyo_">Froyo</string>
+</resources>
+
