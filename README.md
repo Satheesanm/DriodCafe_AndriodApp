@@ -1,6 +1,22 @@
 # DriodCafe_AndriodApp
 
-DroidCAFE is an Android online application that features a splash screen upon launch. Users can select a category of items from a list and specify the number of items they want to order. They can then enter a delivery address for the items to be delivered to.![Screenshot_20230203_143430](https://user-images.githubusercontent.com/68456795/218791689-0d5ab70d-f622-47df-9cb1-fe269f5ba94a.png)
+DroidCAFE is an Android online application that features a splash screen upon launch. Users can select a category of items from a list and specify the number of items they want to order. They can then enter a delivery address for the items to be delivered to.
+
+
+
+
+Add a splash screen to your application. This can be done by creating a separate activity with a layout that displays an image or logo while the rest of the app loads in the background.
+
+Create an activity for selecting items. This activity should have a list of categories that the user can select from, such as "Hot Beverage," "Cold Beverage," etc. When a category is selected, a new activity should display a list of items in that category.
+
+In the item selection activity, allow the user to add items to their order by specifying the number of items they would like to purchase.
+
+Create an activity for entering the delivery address. This activity should have input fields for the user to enter their name, address, phone number, and any other relevant information.
+
+Create a confirmation screen that displays the user's order information and allows them to submit their order.
+
+
+![Screenshot_20230203_143430](https://user-images.githubusercontent.com/68456795/218791689-0d5ab70d-f622-47df-9cb1-fe269f5ba94a.png)
 
 ![Screenshot_20230203_143430](https://user-images.githubusercontent.com/68456795/218791750-d7fbce7c-f3a4-4ba6-a33d-41a098a57240.png)
 ![Screenshot_20230203_143448](https://user-images.githubusercontent.com/68456795/218791936-cd73dcc7-cf5c-42ef-bbd4-8b927b384354.png)
